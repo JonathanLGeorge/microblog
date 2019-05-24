@@ -16,3 +16,4 @@ class Config(object):
 	ADMINS = ['your-email@example.com']
 	POSTS_PER_PAGE = 15
 	LANGUAGES =['en', 'es']
+	LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
