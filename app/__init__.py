@@ -82,7 +82,6 @@ def create_app(config_class=Config):
 
 @babel.localeselector
 def get_locale():
-	return 'en'
-
+	return "en"
 
 from app import models
